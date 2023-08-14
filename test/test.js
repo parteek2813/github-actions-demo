@@ -1,4 +1,4 @@
-const {expect, describe, it} = require("chai");
+const {expect} = require("chai");
 const {JSDOM} = require("jsdom")
 
 describe('Website', () => {

@@ -1,1 +1,12 @@
-
+name: Sample Workflow
+on: push 
+jobs: 
+  build: 
+    name: Simple build
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout/@v1
+      - name: Checkout the project whatever changes made
+        run: echo "this workflow ran successfully"
+        
+    
